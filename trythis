@@ -1,0 +1,8 @@
+git remote add <remote repository name> <remote url>
+
+git push -u <remote repository name>
+
+
+
+
+--------------dont give brackets-----
