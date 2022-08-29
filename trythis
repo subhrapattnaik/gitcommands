@@ -2,6 +2,7 @@ git remote add <remote repository name> <remote url>
 
 git push -u <remote repository name>
 
+(the remote repository should be empty..try without readme)
 
 
 
