@@ -2,6 +2,15 @@ git init   -- Intialize your repository with Git and Git starts tracking changes
 git add [file name]  -- Add a file (changes from your working directory to a staging area)
 git commit -m "any message"  -- Commit a file to commit history  
 git remote add [remote repository name] [remote url address]  -- Connect your local repository to a remote repository
+
+------------------------------------------
+git remote add <remote repository name> <remote url>
+
+git push -u <remote repository name>
+
+
+(the remote repository should be empty..try without readme)
+----------------------------------------
 git push  -- Push the current local repository to remote
 git clone [url]  -- Clone the remote repository into a local repository  
 mkdir [folder name] -- Creates a new directory
