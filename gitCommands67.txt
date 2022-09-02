@@ -2,7 +2,17 @@ git init   -- Intialize your repository with Git and Git starts tracking changes
 git add [file name]  -- Add a file (changes from your working directory to a staging area)
 git commit -m "any message"  -- Commit a file to commit history  
 git remote add [remote repository name] [remote url address]  -- Connect your local repository to a remote repository
+---------------
 
+git —version
+
+
+git config —global user.name “subhrapattnaik”
+
+git config —global user.email “subhra.pattnaik@gmail.com”
+
+git remote add <remote_name> <remote_github_url>
+git push -u <remote_name>
 ------------------------------------------
 git remote add <remote repository name> <remote url>
 
@@ -47,6 +57,17 @@ git diff [branchA] [branchB] -- (to see the differences between the branches)
  
 git remote add origin [http...git] -- (empty repository URL)
 git push origin master 
+
+
+git —version
+
+
+git config —global user.name “subhrapattnaik”
+
+git config —global user.email “subhra.pattnaik@gmail.com”
+
+git remote add <remote_name> <remote_github_url>
+git push -u <remote_name>
 ______________________________________________________________________________________________
 
 By default the branch is master 
